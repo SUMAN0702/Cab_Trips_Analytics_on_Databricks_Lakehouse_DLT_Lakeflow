@@ -51,7 +51,8 @@
 
 A production-grade **Databricks Lakehouse** analytics platform that processes **500K+ cab trip records** using **Declarative Pipelines (Delta Live Tables / LakeFlow)** with a robust **Medallion Architecture (Bronze → Silver → Gold)**. The pipeline supports both **batch and streaming ingestion** via **Auto Loader**, implements **Change Data Capture (CDC)** with **SCD Type 1 & 2** patterns, and delivers **business-ready fact views** with **role-based access control (RBAC)** for city-level data isolation.
 
-<img width="14204" height="4628" alt="architecture" src="https://github.com/user-attachments/assets/6a85b2b2-dcee-4dd8-a6dd-ef0b02af6a5f" />
+<img width="1536" height="1024" alt="537380764-8134d695-bc12-4049-a93f-4c35e17dee04" src="https://github.com/user-attachments/assets/439b4bb1-12ea-47a9-84c0-1b45267495c4" />
+
 
 ### 🔑 What Makes This Project Stand Out
 
@@ -283,6 +284,9 @@ Project_Transportation/
 ---
 
 ## 🔄 Data Pipeline Layers
+
+<img width="1536" height="1024" alt="537380938-7b08b96d-5a80-4045-afe7-745d794add40" src="https://github.com/user-attachments/assets/803780c4-a4dd-432d-b79e-41084f053d3d" />
+
 
 ### 🟤 Bronze Layer (Raw Ingestion)
 
@@ -550,6 +554,8 @@ def calendar():
 
 ### 🟡 Gold Layer (Business-Ready Analytics)
 
+<img width="1916" height="904" alt="Gold_Layer" src="https://github.com/user-attachments/assets/1e9c302b-57ea-4d59-9182-72698ec5287d" />
+
 The Gold layer delivers pre-aggregated, business-ready data models optimized for analytics and reporting.
 
 #### Design Principles
@@ -697,6 +703,8 @@ CREATE OR REPLACE VIEW transportation.gold.fact_trips_jaipur AS (
 ```
 
 ### Dataset Details
+
+<img width="1918" height="903" alt="AWS_S3" src="https://github.com/user-attachments/assets/76277d39-0345-4fcc-987a-03e750c73a0b" />
 
 #### Source: AWS S3
 
@@ -994,8 +1002,8 @@ GROUP BY holiday_name;
 
 **Sairam Suman Bathini**
 
-[[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)](https://www.linkedin.com/in/bathini-sairam-suman/)
-[[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-profile)](https://github.com/SUMAN0702)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bathini-sairam-suman/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SUMAN0702)
 
 
 ---
